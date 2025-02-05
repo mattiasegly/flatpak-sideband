@@ -6,6 +6,7 @@ sources:
     commit: b08d7969c550a804a59511c7b83f2dd8cc0499b8
     x-checker-data:
       type: git
+      tag-pattern: n(\d+.\d+)$ #might need fixing if patch numbering is added
 buildsystem: simple
 builddir: true
 build-commands:
