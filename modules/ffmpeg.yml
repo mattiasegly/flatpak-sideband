@@ -1,0 +1,14 @@
+name: ffmpeg
+sources:
+  - type: git
+    url: https://github.com/FFmpeg/FFmpeg.git
+    tag: n7.1
+    commit: b08d7969c550a804a59511c7b83f2dd8cc0499b8
+    x-checker-data:
+      type: git
+buildsystem: simple
+builddir: true
+build-commands:
+  - ./configure --prefix=/app --arch=x86_64 --enable-gpl --enable-postproc --enable-shared --disable-static --disable-doc --disable-debug
+  - make
+  - make install

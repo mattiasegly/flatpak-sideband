@@ -1,0 +1,12 @@
+name: pyaudio
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/26/1d/8878c7752febb0f6716a7e1a52cb92ac98871c5aa522cba181878091607c/PyAudio-0.2.14.tar.gz
+    sha256: 78dfff3879b4994d1f4fc6485646a57755c6ee3c19647a491f790a0895bd2f87
+    x-checker-data:
+      type: pypi
+      name: PyAudio
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .

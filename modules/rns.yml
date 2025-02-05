@@ -1,0 +1,12 @@
+name: rns
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/f0/e3/5eab01fc828a10eddef6447d3494c45828e21948b1459b8a8193bbf8f101/rns-0.9.1.tar.gz
+    sha256: 6ececa91579ec5bed4a1ee8e9e2348c74ebf6e47ab46530bbaee87b188672b1e
+    x-checker-data:
+      type: pypi
+      name: rns
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .

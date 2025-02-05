@@ -1,0 +1,12 @@
+name: materialyoucolor
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/83/b3/8835bacf50ea32bf000f9118f60da4c8e5febe80ab5929be18ce99a4baea/materialyoucolor-2.0.10.tar.gz
+    sha256: 31b4d407b9a4fd4b54b30559b0d0313f6d6da1f9d19b75546ed65da52671ea76
+    x-checker-data:
+      type: pypi
+      name: materialyoucolor
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .

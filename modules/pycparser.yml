@@ -1,0 +1,12 @@
+name: pycparser
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/1d/b2/31537cf4b1ca988837256c910a668b553fceb8f069bedc4b1c826024b52c/pycparser-2.22.tar.gz
+    sha256: 491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6
+    x-checker-data:
+      type: pypi
+      name: pycparser
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .

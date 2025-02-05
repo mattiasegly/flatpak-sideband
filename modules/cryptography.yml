@@ -1,0 +1,15 @@
+name: cryptography
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/91/4c/45dfa6829acffa344e3967d6006ee4ae8be57af746ae2eba1c431949b32c/cryptography-44.0.0.tar.gz
+    sha256: cd4e834f340b4293430701e772ec543b0fbe6c2dea510a5286fe0acabe153a02
+    x-checker-data:
+      type: pypi
+      name: cryptography
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+build-options:
+  build-args:
+    - --share=network #needed until rust dependencies are solved

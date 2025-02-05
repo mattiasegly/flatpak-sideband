@@ -1,0 +1,20 @@
+name: qrcode
+sources:
+#  - type: archive
+#    url: https://files.pythonhosted.org/packages/d7/db/6fc9631cac1327f609d2c8ae3680ecd987a2e97472437f2de7ead1235156/qrcode-8.0.tar.gz
+#    sha256: 025ce2b150f7fe4296d116ee9bad455a6643ab4f6e7dce541613a4758cbce347
+#    x-checker-data:
+#      type: pypi
+#      name: qrcode
+  - type: file
+    url: https://files.pythonhosted.org/packages/74/ab/df8d889fd01139db68ae9e5cb5c8f0ea016823559a6ecb427582d52b07dc/qrcode-8.0-py3-none-any.whl
+    sha256: 9fc05f03305ad27a709eb742cf3097fa19e6f6f93bb9e2f039c0979190f6f1b1
+    x-checker-data:
+      name: qrcode
+      packagetype: bdist_wheel
+      type: pypi
+buildsystem: simple
+builddir: true
+build-commands:
+#  - pip3 install --verbose --no-index --no-build-isolation --prefix /app . #problem building
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

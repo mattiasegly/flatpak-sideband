@@ -1,0 +1,12 @@
+name: pyproject-metadata
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/c0/79/406a9f56c435caaaca4a1c66397e4f63ecd48a72a6c4fc1d9ecdaac66acb/pyproject_metadata-0.9.0.tar.gz
+    sha256: 8511c00a4cad96686af6a6b4143433298beb96105a9379afdc9b0328f4f260c9
+    x-checker-data:
+      type: pypi
+      name: pyproject-metadata
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .

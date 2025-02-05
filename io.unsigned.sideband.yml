@@ -1,0 +1,78 @@
+app-id: io.unsigned.sideband
+runtime: org.kde.Platform
+runtime-version: "6.8"
+sdk: org.kde.Sdk
+add-build-extensions:
+  org.freedesktop.Sdk.Extension.rust-stable:
+    version: '24.08'
+command: sideband
+
+separate-locales: false
+finish-args:
+  - --share=ipc
+  - --share=network
+  - --device=dri
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --socket=pulseaudio
+  - --allow=bluetooth
+
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/cmake
+  - /share/doc
+  - /share/man
+  - /share/pkgconfig
+  - "*.la"
+  - "*.a"
+cleanup-commands:
+  - rm -rf /app/{include,lib/{cmake,mkspecs,pkgconfig}}
+
+build-options:
+  append-path: /usr/lib/sdk/rust-stable/bin
+
+modules:
+  - modules/semantic-version.yml
+  - modules/setuptools-scm.yml
+  - modules/setuptools-rust.yml
+  - modules/maturin.yml
+  - modules/pycparser.yml
+  - modules/cffi.yml
+  - modules/cryptography.yml
+  - modules/pyserial.yml
+  - modules/rns.yml
+  - modules/lxmf.yml
+  - modules/charset-normalizer.yml
+  - modules/flit-core.yml
+  - modules/idna.yml
+  - modules/pathspec.yml
+  - modules/pluggy.yml
+  - modules/trove-classifiers.yml
+  - modules/hatchling.yml
+  - modules/hatch-vcs.yml
+  - modules/urllib3.yml
+  - modules/certifi.yml
+  - modules/requests.yml
+  - modules/kivy-garden.yml
+  - modules/docutils.yml
+  - modules/filetype.yml
+  - modules/kivy.yml
+  - modules/pillow.yml
+  - modules/qrcode.yml
+  - modules/materialyoucolor.yml
+  - modules/ffmpeg.yml
+  - modules/ffpyplayer.yml
+  - modules/sh.yml
+  - modules/pyproject-metadata.yml
+  - modules/meson-python.yml
+  - modules/numpy.yml
+  - modules/mistune.yml
+  - modules/typing-extensions.yml
+  - modules/soupsieve.yml
+  - modules/beautifulsoup4.yml
+  - modules/codec2.yml
+  - modules/pycodec2.yml
+  - modules/portaudio.yml
+  - modules/pyaudio.yml
+  - modules/sbapp.yml

@@ -1,0 +1,12 @@
+name: setuptools-rust
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/d3/6b/99a1588d826ceb108694ba00f78bc6afda10ed5d72d550ae8f256af1f7b4/setuptools_rust-1.10.2.tar.gz
+    sha256: 5d73e7eee5f87a6417285b617c97088a7c20d1a70fcea60e3bdc94ff567c29dc
+    x-checker-data:
+      type: pypi
+      name: setuptools-rust
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .

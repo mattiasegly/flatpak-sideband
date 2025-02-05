@@ -1,0 +1,12 @@
+name: lxmf
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/80/54/472032803d70fcac86a777968f04fbe796e41471c04ddc877ebf309adb00/lxmf-0.6.2.tar.gz
+    sha256: 68ac34869e4fa84f5db81433c5584fa5692c4ccff03931aef19539a4d3a1cb00
+    x-checker-data:
+      type: pypi
+      name: lxmf
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .

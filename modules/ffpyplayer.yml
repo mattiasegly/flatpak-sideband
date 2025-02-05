@@ -1,0 +1,20 @@
+name: ffpyplayer
+sources:
+#  - type: archive
+#    url: https://files.pythonhosted.org/packages/e1/79/9312fdca7165231323a80a817d53ce90c614fe29208fe0f9608d484ac591/ffpyplayer-4.5.2.tar.gz
+#    sha256: f9affdc12ebba4649f116973b9e4e057d06761bc63758594a91ec85f168752fe
+#    x-checker-data:
+#      type: pypi
+#      name: ffpyplayer
+  - type: file
+    url: https://files.pythonhosted.org/packages/5f/cc/e99a091a6eef6c00746d8fbebc90115b06dc968f22183161aa7ccf642636/ffpyplayer-4.5.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: adf326af7720208518315e0e55dfc52511f45b27f36947968d698027e9994e12
+    x-checker-data:
+      name: ffpyplayer
+      packagetype: bdist_wheel
+      type: pypi
+buildsystem: simple
+builddir: true
+build-commands:
+#  - pip3 install --verbose --no-index --no-build-isolation --prefix /app . #problem building
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

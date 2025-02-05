@@ -1,0 +1,20 @@
+name: kivy-garden
+sources:
+#  - type: archive
+#    url: https://files.pythonhosted.org/packages/0b/33/9ad8dab579e7c48e95e7de6bf00b5e671c4ee1c0a57df140fb2d145ffe36/Kivy%20Garden-0.1.5.tar.gz
+#    sha256: 2b8377378e87501d5d271f33d94f0e44c089884572c64f89c9d609b1f86a2748
+#    x-checker-data:
+#      type: pypi
+#      name: Kivy-Garden
+  - type: file
+    url: https://files.pythonhosted.org/packages/6a/55/cd1555bde62f809219cbc5d8a0836b0293399da2f4ba4e8ee84b6a7cc393/Kivy_Garden-0.1.5-py3-none-any.whl
+    sha256: ef50f44b96358cf10ac5665f27a4751bb34ef54051c54b93af891f80afe42929
+    x-checker-data:
+      name: Kivy-Garden
+      packagetype: bdist_wheel
+      type: pypi
+buildsystem: simple
+builddir: true
+build-commands:
+#  - pip3 install --verbose --no-index --no-build-isolation --prefix /app . #problem building, required extra dependencies like ez_setup
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

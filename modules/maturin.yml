@@ -1,0 +1,15 @@
+name: maturin
+sources:
+  - type: archive
+    url: https://files.pythonhosted.org/packages/9a/08/ccb0f917722a35ab0d758be9bb5edaf645c3a3d6170061f10d396ecd273f/maturin-1.8.1.tar.gz
+    sha256: 49cd964aabf59f8b0a6969f9860d2cdf194ac331529caae14c884f5659568857
+    x-checker-data:
+      type: pypi
+      name: maturin
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+build-options:
+  build-args:
+    - --share=network
