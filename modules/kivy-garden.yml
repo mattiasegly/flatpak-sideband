@@ -10,7 +10,7 @@ sources:
     url: https://files.pythonhosted.org/packages/6a/55/cd1555bde62f809219cbc5d8a0836b0293399da2f4ba4e8ee84b6a7cc393/Kivy_Garden-0.1.5-py3-none-any.whl
     sha256: ef50f44b96358cf10ac5665f27a4751bb34ef54051c54b93af891f80afe42929
     x-checker-data:
-      name: Kivy-Garden
+      name: Kivy_Garden
       packagetype: bdist_wheel
       type: pypi
 buildsystem: simple
