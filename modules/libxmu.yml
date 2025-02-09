@@ -6,7 +6,7 @@ sources:
     commit: 792f80402ee06ce69bca3a8f2a84295999c3a170
     x-checker-data:
       type: git
-      tag-pattern: libXmu-(\d+.\d+.\d+)$
+      tag-pattern: libXmu-([\d.]+)$
 buildsystem: autotools
 builddir: true
 config-opts:
