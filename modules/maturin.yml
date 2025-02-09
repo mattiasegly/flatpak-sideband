@@ -1,8 +1,8 @@
 name: maturin
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/9a/08/ccb0f917722a35ab0d758be9bb5edaf645c3a3d6170061f10d396ecd273f/maturin-1.8.1.tar.gz
-    sha256: 49cd964aabf59f8b0a6969f9860d2cdf194ac331529caae14c884f5659568857
+    url: https://files.pythonhosted.org/packages/e0/8f/6978427ce3f72b189012e1731d1d2d27b3151caa741666c905320e0a3662/maturin-1.8.2.tar.gz
+    sha256: e31abc70f6f93285d6e63d2f4459c079c94c259dd757370482d2d4ceb9ec1fa0
     x-checker-data:
       type: pypi
       name: maturin
