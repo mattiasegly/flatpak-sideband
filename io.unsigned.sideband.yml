@@ -33,6 +33,9 @@ build-options:
   append-path: /usr/lib/sdk/rust-stable/bin
 
 modules:
+  - modules/mtdev.yml
+  - modules/libxmu.yml
+  - modules/xclip.yml
   - modules/semantic-version.yml
   - modules/setuptools-scm.yml
   - modules/setuptools-rust.yml

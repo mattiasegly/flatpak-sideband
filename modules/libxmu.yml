@@ -1,0 +1,14 @@
+name: libxmu
+sources:
+  - type: git
+    url: https://gitlab.freedesktop.org/xorg/lib/libxmu.git
+    tag: libXmu-1.2.1
+    commit: 792f80402ee06ce69bca3a8f2a84295999c3a170
+    x-checker-data:
+      type: git
+      tag-pattern: libXmu-(\d+.\d+.\d+)$
+buildsystem: autotools
+builddir: true
+config-opts:
+  - --disable-static
+  - --disable-docs
