@@ -1,10 +1,10 @@
 app-id: io.unsigned.sideband
-runtime: org.kde.Platform
-runtime-version: "6.8"
-sdk: org.kde.Sdk
+runtime: org.freedesktop.Platform
+runtime-version: "24.08"
+sdk: org.freedesktop.Sdk
 add-build-extensions:
   org.freedesktop.Sdk.Extension.rust-stable:
-    version: '24.08'
+    version: "24.08"
 command: sideband
 
 separate-locales: false
