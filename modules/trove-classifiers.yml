@@ -1,8 +1,8 @@
 name: trove-classifiers
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/f3/cb/8f6a91c74049180e395590901834d68bef5d6a2ce4c9ca9792cfadc1b9b4/trove_classifiers-2025.1.15.22.tar.gz
-    sha256: 90af74358d3a01b3532bc7b3c88d8c6a094c2fd50a563d13d9576179326d7ed9
+    url: https://files.pythonhosted.org/packages/13/8e/15ba2980e2704edecc53d15506a5bfa6efb3b1cadc5e4df7dc277bc199f8/trove_classifiers-2025.2.18.16.tar.gz
+    sha256: b1ee2e1668589217d4edf506743e28b1834da128f8a122bad522c02d837006e1
     x-checker-data:
       type: pypi
       name: trove-classifiers
