@@ -10,6 +10,6 @@ sources:
 buildsystem: simple
 builddir: true
 build-commands:
-  - ./configure --prefix=/app --arch=x86_64 --enable-gpl --enable-postproc --enable-shared --disable-static --disable-doc --disable-debug
+  - ./configure --prefix=/app --arch=x86_64 --enable-gpl --enable-postproc --enable-libcodec2 --enable-libopus --enable-shared --disable-static --disable-doc --disable-debug
   - make
   - make install

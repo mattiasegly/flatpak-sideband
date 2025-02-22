@@ -36,6 +36,7 @@ modules:
   - modules/mtdev.yml
   - modules/libxmu.yml
   - modules/xclip.yml
+  - modules/xsel.yml
   - modules/semantic-version.yml
   - modules/setuptools-scm.yml
   - modules/setuptools-rust.yml
@@ -64,6 +65,8 @@ modules:
   - modules/pillow.yml
   - modules/qrcode.yml
   - modules/materialyoucolor.yml
+  - modules/codec2.yml
+  - modules/opus.yml
   - modules/ffmpeg.yml
   - modules/ffpyplayer.yml
   - modules/sh.yml
@@ -74,7 +77,6 @@ modules:
   - modules/typing-extensions.yml
   - modules/soupsieve.yml
   - modules/beautifulsoup4.yml
-  - modules/codec2.yml
   - modules/pycodec2.yml
   - modules/portaudio.yml
   - modules/pyaudio.yml

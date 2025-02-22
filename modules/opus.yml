@@ -1,0 +1,18 @@
+name: opus
+sources:
+  - type: git
+    url: https://github.com/xiph/opus.git
+    tag: v1.5.2
+    commit: ddbe48383984d56acd9e1ab6a090c54ca6b735a6
+    x-checker-data:
+      type: git
+buildsystem: simple
+builddir: true
+build-commands:
+  - ./autogen.sh #downloads models
+  - ./configure --prefix=/app
+  - make
+  - make install
+build-options:
+  build-args:
+    - --share=network #needed for autogen.sh
