@@ -7,8 +7,8 @@ sources:
 #      type: pypi
 #      name: sh
   - type: file
-    url: https://files.pythonhosted.org/packages/3d/9a/3fb455591ab32280ea9397e8cb02b167bf591428e89779a896f2998cfd56/sh-2.2.1-py3-none-any.whl
-    sha256: c7369c4ae13729d8ea100b5e93af1a8be528a008433428e38651c9f2b5b5fe2c
+    url: https://files.pythonhosted.org/packages/70/98/d82f14ac7ffedbd38dfa2383f142b26d18d23ca6cf35a40f4af60df666bd/sh-2.2.2-py3-none-any.whl
+    sha256: e0b15b4ae8ffcd399bc8ffddcbd770a43c7a70a24b16773fbb34c001ad5d52af
     x-checker-data:
       name: sh
       packagetype: bdist_wheel
