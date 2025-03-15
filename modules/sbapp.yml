@@ -1,8 +1,8 @@
 name: sbapp
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/ae/bc/fc564413668000bbb2c1f1bc6d9f4820b7e3ec307f994fb9c4e465a3f587/sbapp-1.4.0.tar.gz
-    sha256: c1b9a385214320eec9c0bb7a2f99e02f32d6e2b68ea9d851d78e47257aaef8e6
+    url: https://files.pythonhosted.org/packages/7a/0a/565c9ea2b8d0ef10bb9de45942e6fa22654f624510c945cf29c12fc8dfe3/sbapp-1.5.0.tar.gz
+    sha256: 053b9c8f4edf78e40e465ba29cfd0a5873131aa6aec5b9e9922f15ef24d3aa04
     x-checker-data:
       type: pypi
       name: sbapp
