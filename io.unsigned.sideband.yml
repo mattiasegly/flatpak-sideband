@@ -80,4 +80,6 @@ modules:
   - modules/pycodec2.yml
   - modules/portaudio.yml
   - modules/pyaudio.yml
+  - modules/soundcard.yml
+  - modules/lxst.yml
   - modules/sbapp.yml
