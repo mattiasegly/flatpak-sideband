@@ -1,8 +1,8 @@
 name: mistune
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/80/f7/f6d06304c61c2a73213c0a4815280f70d985429cda26272f490e42119c1a/mistune-3.1.2.tar.gz
-    sha256: 733bf018ba007e8b5f2d3a9eb624034f6ee26c4ea769a98ec533ee111d504dff
+    url: https://files.pythonhosted.org/packages/c4/79/bda47f7dd7c3c55770478d6d02c9960c430b0cf1773b72366ff89126ea31/mistune-3.1.3.tar.gz
+    sha256: a7035c21782b2becb6be62f8f25d3df81ccb4d6fa477a6525b15af06539f02a0
     x-checker-data:
       type: pypi
       name: mistune
