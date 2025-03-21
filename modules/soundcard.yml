@@ -1,8 +1,8 @@
 name: soundcard
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/fe/61/8fa850aacd49ad4c838cb51cd8893c1696ac32693efc22640f39f8190d50/SoundCard-0.4.3.tar.gz
-    sha256: 410835514ba10809803cb9887d4270f392b59eaf365915bb94516af3f8b1d037
+    url: https://files.pythonhosted.org/packages/7b/4b/a285575be93545fed2cc03ad89b5331876ecd9dda612b53e2d3e4b7bbae1/soundcard-0.4.4.tar.gz
+    sha256: 87df9c4b8ec97585fe440a1d9dbafabcece58eae5857ed005e6bb385b2179cff
     x-checker-data:
       type: pypi
       name: SoundCard
