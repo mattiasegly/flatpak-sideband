@@ -1,8 +1,8 @@
 name: rns
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/e7/54/9e956bef490e4b4a8656384e9ba6c9428a0556fe19d7289771c27cc1065f/rns-0.9.3.tar.gz
-    sha256: ae68fa104e62f5e5ff437893a33ae09ab466e9cbf967f83089f7a00267173061
+    url: https://files.pythonhosted.org/packages/42/34/4439040ecc18d9ef1bbbaaacb8070620a1000f6b09ebfd98aa43d89fe205/rns-0.9.4.tar.gz
+    sha256: a1304f4a59212df18145c95323c8c55b956b842071cd588050f73dcec75cf471
     x-checker-data:
       type: pypi
       name: rns
