@@ -1,12 +1,12 @@
 name: pycodec2
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/a2/41/f672a279f9f4aa6005a6c4f951a0a3c134764680c907ffc8b321fbd983b7/pycodec2-3.0.4.tar.gz
-    sha256: f54299cec5c74d42bdbe897b447920cc8d240368a362e7322b31bb0197fe3f2a
+    url: https://files.pythonhosted.org/packages/01/97/4c0fb5a0059c1123066a2058a896982ddf4035a72e48231ecf25703ec41e/pycodec2-3.1.0.tar.gz
+    sha256: 783bf3d4491d11a622972db9317db1c9408fad48d3d5db47ad144e55a5649070
     x-checker-data:
       type: pypi
       name: pycodec2
-      versions: { <: "4" } #numpy dependency
+      versions: {<: '4'}   #numpy dependency
 buildsystem: simple
 builddir: true
 build-commands:
