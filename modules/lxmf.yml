@@ -1,8 +1,8 @@
 name: lxmf
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/c1/04/ef66318c3523cee84acb1c427a9d82e850161d9f2ecad7b8a3ca9be21e58/lxmf-0.6.3.tar.gz
-    sha256: e94aee6c7c3ee8adb17a86e853c07b1633b9e21c3beffc8f4297917193ec9931
+    url: https://files.pythonhosted.org/packages/bb/6e/0b00c90d177d1118a6e3cd92bb262ed61813d71b90ef33a7a77e8475938b/lxmf-0.7.0.tar.gz
+    sha256: be7abae190fbf088e170dae3e22b4b70eef75a1c5b0039e79ea873c9c2f117a1
     x-checker-data:
       type: pypi
       name: lxmf
