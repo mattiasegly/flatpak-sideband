@@ -1,12 +1,13 @@
 name: sbapp
 sources:
-  - type: archive
+  - type: file
     url: https://files.pythonhosted.org/packages/fc/bb/9e8258ce9623dd34ebd1342a3c0534aaad71f035d9fb6866176b98573265/sbapp-1.6.0-py3-none-any.whl
     sha256: 21f308e068709f46e2249b33a8b909c0d2f9bedc04e81510a86b1b117080b6e2
     x-checker-data:
       type: pypi
       name: sbapp
+      packagetype: bdist_wheel
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl
