@@ -1,8 +1,8 @@
 name: sbapp
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/fc/bb/9e8258ce9623dd34ebd1342a3c0534aaad71f035d9fb6866176b98573265/sbapp-1.6.0-py3-none-any.whl
-    sha256: 21f308e068709f46e2249b33a8b909c0d2f9bedc04e81510a86b1b117080b6e2
+    url: https://files.pythonhosted.org/packages/89/92/64a8f7d2333e512a2a5e01beecec2a66752c869e5ace19f41505f1cf0f5e/sbapp-1.6.1-py3-none-any.whl
+    sha256: 8f7b3b2c76a200e54c176d7b486165af8a35dd0f5f0ac45564e2788c7ddaba75
     x-checker-data:
       type: pypi
       name: sbapp
