@@ -1,12 +1,13 @@
 name: rns
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/60/21/b6fd9d3b40b76f842f0beaf48ebb8ce8d4c8475c73c4c616e4033699af1a/rns-0.9.5.tar.gz
-    sha256: a539ede3d3939726cf42d17f19fae87c442f6dc43ea1ccae5b11ed0ebe38fe8e
+  - type: file
+    url: https://files.pythonhosted.org/packages/fd/73/beb943f390cf1245a0680bf315098d053857e96681814f2eb7d79fbf8ce1/rns-0.9.6-py3-none-any.whl
+    sha256: a23c64a04c1e83fd0ab449f564ac904da7fd4f61c0faf68a063f486cc48b44bd
     x-checker-data:
       type: pypi
       name: rns
+      packagetype: bdist_wheel
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl
