@@ -1,8 +1,8 @@
 name: cryptography
 sources:
   - type: archive
-    url: https://files.pythonhosted.org/packages/13/1f/9fa001e74a1993a9cadd2333bb889e50c66327b8594ac538ab8a04f915b7/cryptography-45.0.3.tar.gz
-    sha256: ec21313dd335c51d7877baf2972569f40a4291b76a0ce51391523ae358d05899
+    url: https://files.pythonhosted.org/packages/fe/c8/a2a376a8711c1e11708b9c9972e0c3223f5fc682552c82d8db844393d6ce/cryptography-45.0.4.tar.gz
+    sha256: 7405ade85c83c37682c8fe65554759800a4a8c54b2d96e0f8ad114d31b808d57
     x-checker-data:
       type: pypi
       name: cryptography
