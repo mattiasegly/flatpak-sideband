@@ -2,9 +2,6 @@ app-id: io.unsigned.sideband
 runtime: org.freedesktop.Platform
 runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
-add-build-extensions:
-  org.freedesktop.Sdk.Extension.rust-stable:
-    version: "24.08"
 command: sideband
 
 separate-locales: false
@@ -13,7 +10,7 @@ finish-args:
   - --share=network
   - --device=dri
   - --socket=wayland
-  - --socket=fallback-x11
+  - --socket=x11
   - --socket=pulseaudio
   - --allow=bluetooth
 
@@ -29,19 +26,11 @@ cleanup:
 cleanup-commands:
   - rm -rf /app/{include,lib/{cmake,mkspecs,pkgconfig}}
 
-build-options:
-  append-path: /usr/lib/sdk/rust-stable/bin
-
 modules:
-  - modules/cython.yml
   - modules/mtdev.yml
   - modules/libxmu.yml
   - modules/xclip.yml
   - modules/xsel.yml
-  - modules/semantic-version.yml
-  - modules/setuptools-scm.yml
-  - modules/setuptools-rust.yml
-  - modules/maturin.yml
   - modules/pycparser.yml
   - modules/cffi.yml
   - modules/cryptography.yml
@@ -49,13 +38,7 @@ modules:
   - modules/rns.yml
   - modules/lxmf.yml
   - modules/charset-normalizer.yml
-  - modules/flit-core.yml
   - modules/idna.yml
-  - modules/pathspec.yml
-  - modules/pluggy.yml
-  - modules/trove-classifiers.yml
-  - modules/hatchling.yml
-  - modules/hatch-vcs.yml
   - modules/urllib3.yml
   - modules/certifi.yml
   - modules/requests.yml
@@ -66,13 +49,8 @@ modules:
   - modules/pillow.yml
   - modules/qrcode.yml
   - modules/materialyoucolor.yml
-  - modules/codec2.yml
-  - modules/opus.yml
-  - modules/ffmpeg.yml
   - modules/ffpyplayer.yml
   - modules/sh.yml
-  - modules/pyproject-metadata.yml
-  - modules/meson-python.yml
   - modules/numpy.yml
   - modules/mistune.yml
   - modules/typing-extensions.yml

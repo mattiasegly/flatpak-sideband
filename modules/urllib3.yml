@@ -1,12 +1,13 @@
 name: urllib3
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599c47dd506532914ce044817c7752a79b6a51286319bc/urllib3-2.5.0.tar.gz
-    sha256: 3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760
+  - type: file
+    url: https://files.pythonhosted.org/packages/a7/c2/fe1e52489ae3122415c51f387e221dd0773709bad6c6cdaa599e8a2c5185/urllib3-2.5.0-py3-none-any.whl
+    sha256: e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc
     x-checker-data:
-      type: pypi
       name: urllib3
+      packagetype: bdist_wheel
+      type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

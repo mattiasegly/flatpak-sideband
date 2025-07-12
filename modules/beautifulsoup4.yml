@@ -1,12 +1,13 @@
 name: beautifulsoup4
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/d8/e4/0c4c39e18fd76d6a628d4dd8da40543d136ce2d1752bd6eeeab0791f4d6b/beautifulsoup4-4.13.4.tar.gz
-    sha256: dbb3c4e1ceae6aefebdaf2423247260cd062430a410e38c66f2baa50a8437195
+  - type: file
+    url: https://files.pythonhosted.org/packages/50/cd/30110dc0ffcf3b131156077b90e9f60ed75711223f306da4db08eff8403b/beautifulsoup4-4.13.4-py3-none-any.whl
+    sha256: 9bbbb14bfde9d79f38b8cd5f8c7c85f4b8f2523190ebed90e950a8dea4cb1c4b
     x-checker-data:
-      type: pypi
       name: beautifulsoup4
+      packagetype: bdist_wheel
+      type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

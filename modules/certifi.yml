@@ -1,12 +1,13 @@
 name: certifi
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/de/8a/c729b6b60c66a38f590c4e774decc4b2ec7b0576be8f1aa984a53ffa812a/certifi-2025.7.9.tar.gz
-    sha256: c1d2ec05395148ee10cf672ffc28cd37ea0ab0d99f9cc74c43e588cbd111b079
+  - type: file
+    url: https://files.pythonhosted.org/packages/66/f3/80a3f974c8b535d394ff960a11ac20368e06b736da395b551a49ce950cce/certifi-2025.7.9-py3-none-any.whl
+    sha256: d842783a14f8fdd646895ac26f719a061408834473cfc10203f6a575beb15d39
     x-checker-data:
-      type: pypi
       name: certifi
+      packagetype: bdist_wheel
+      type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

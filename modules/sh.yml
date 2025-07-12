@@ -1,11 +1,5 @@
 name: sh
 sources:
-#  - type: archive
-#    url: https://files.pythonhosted.org/packages/bd/30/abf254f7b56ba7bcae938767e3ee0f54d220d931a35a8721de350b76dec5/sh-2.2.1.tar.gz
-#    sha256: 287021ae84183dea49787985e33797dda7fe769e4f95f2c94dff8e245ab4cb00
-#    x-checker-data:
-#      type: pypi
-#      name: sh
   - type: file
     url: https://files.pythonhosted.org/packages/70/98/d82f14ac7ffedbd38dfa2383f142b26d18d23ca6cf35a40f4af60df666bd/sh-2.2.2-py3-none-any.whl
     sha256: e0b15b4ae8ffcd399bc8ffddcbd770a43c7a70a24b16773fbb34c001ad5d52af
@@ -16,5 +10,4 @@ sources:
 buildsystem: simple
 builddir: true
 build-commands:
-#  - pip3 install --verbose --no-index --no-build-isolation --prefix /app . #problem building
   - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

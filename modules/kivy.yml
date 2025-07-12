@@ -1,11 +1,5 @@
 name: kivy
 sources:
-#  - type: archive
-#    url: https://files.pythonhosted.org/packages/de/48/c40f023dc103bdbd56db11facbb2d0ecbf4b019f7392875ee2a8227cb51e/Kivy-2.3.1.tar.gz
-#    sha256: 0833949e3502cdb4abcf9c1da4384674045ad7d85644313aa1ee7573f3b4f9d9
-#    x-checker-data:
-#      type: pypi
-#      name: Kivy
   - type: file
     url: https://files.pythonhosted.org/packages/5b/17/e11a5b5778869ea4ec013d29c2fb50829226d6da2cc4d8ce91f27bf0a773/Kivy-2.3.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sha256: 2be79fe1494b6e60cb5aa5f124c37961530417cf27a53171b5a72c9e4c7d41cf
@@ -16,5 +10,4 @@ sources:
 buildsystem: simple
 builddir: true
 build-commands:
-#  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
   - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

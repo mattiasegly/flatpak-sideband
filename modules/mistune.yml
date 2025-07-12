@@ -1,12 +1,13 @@
 name: mistune
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/c4/79/bda47f7dd7c3c55770478d6d02c9960c430b0cf1773b72366ff89126ea31/mistune-3.1.3.tar.gz
-    sha256: a7035c21782b2becb6be62f8f25d3df81ccb4d6fa477a6525b15af06539f02a0
+  - type: file
+    url: https://files.pythonhosted.org/packages/01/4d/23c4e4f09da849e127e9f123241946c23c1e30f45a88366879e064211815/mistune-3.1.3-py3-none-any.whl
+    sha256: 1a32314113cff28aa6432e99e522677c8587fd83e3d51c29b82a52409c842bd9
     x-checker-data:
-      type: pypi
       name: mistune
+      packagetype: bdist_wheel
+      type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

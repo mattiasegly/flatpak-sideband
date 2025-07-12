@@ -1,12 +1,13 @@
 name: typing-extensions
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/98/5a/da40306b885cc8c09109dc2e1abd358d5684b1425678151cdaed4731c822/typing_extensions-4.14.1.tar.gz
-    sha256: 38b39f4aeeab64884ce9f74c94263ef78f3c22467c8724005483154c26648d36
+  - type: file
+    url: https://files.pythonhosted.org/packages/b5/00/d631e67a838026495268c2f6884f3711a15a9a2a96cd244fdaea53b823fb/typing_extensions-4.14.1-py3-none-any.whl
+    sha256: d1e1e3b58374dc93031d6eda2420a48ea44a36c2b4766a4fdeb3710755731d76
     x-checker-data:
+      name: typing_extensions
+      packagetype: bdist_wheel
       type: pypi
-      name: typing-extensions
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

@@ -1,13 +1,14 @@
 name: pycodec2
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/01/97/4c0fb5a0059c1123066a2058a896982ddf4035a72e48231ecf25703ec41e/pycodec2-3.1.0.tar.gz
-    sha256: 783bf3d4491d11a622972db9317db1c9408fad48d3d5db47ad144e55a5649070
+  - type: file
+    url: https://files.pythonhosted.org/packages/5d/33/df52df40f442369590a2ebce8386c3fff8b1c1ad952c50e67938bbcb8568/pycodec2-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: d6e63210bca1a9a725d715d31ed5ef90a643e862086e98e059ceff61e1c8bad8
     x-checker-data:
-      type: pypi
       name: pycodec2
-      versions: {<: '4'}   #numpy dependency
+      packagetype: bdist_wheel
+      type: pypi
+      versions: {<: '4'} #numpy dependency
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

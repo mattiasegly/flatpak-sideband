@@ -1,12 +1,13 @@
 name: soundcard
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/7b/4b/a285575be93545fed2cc03ad89b5331876ecd9dda612b53e2d3e4b7bbae1/soundcard-0.4.4.tar.gz
-    sha256: 87df9c4b8ec97585fe440a1d9dbafabcece58eae5857ed005e6bb385b2179cff
+  - type: file
+    url: https://files.pythonhosted.org/packages/c1/63/8c2d352a3844ffde944505e2102d689dc0a026afa52132fa6782fe0ef43a/soundcard-0.4.4-py3-none-any.whl
+    sha256: e915dc6d281bbce369cd3ace46f37e07941dbf2ba867bf4677e7a9433fd63657
     x-checker-data:
-      type: pypi
       name: SoundCard
+      packagetype: bdist_wheel
+      type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

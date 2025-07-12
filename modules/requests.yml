@@ -1,12 +1,13 @@
 name: requests
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/e1/0a/929373653770d8a0d7ea76c37de6e41f11eb07559b103b1c02cafb3f7cf8/requests-2.32.4.tar.gz
-    sha256: 27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422
+  - type: file
+    url: https://files.pythonhosted.org/packages/7c/e4/56027c4a6b4ae70ca9de302488c5ca95ad4a39e190093d6c1a8ace08341b/requests-2.32.4-py3-none-any.whl
+    sha256: 27babd3cda2a6d50b30443204ee89830707d396671944c998b5975b031ac2b2c
     x-checker-data:
-      type: pypi
       name: requests
+      packagetype: bdist_wheel
+      type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl

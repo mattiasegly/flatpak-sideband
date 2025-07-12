@@ -4,9 +4,9 @@ sources:
     url: https://files.pythonhosted.org/packages/fd/73/beb943f390cf1245a0680bf315098d053857e96681814f2eb7d79fbf8ce1/rns-0.9.6-py3-none-any.whl
     sha256: a23c64a04c1e83fd0ab449f564ac904da7fd4f61c0faf68a063f486cc48b44bd
     x-checker-data:
-      type: pypi
       name: rns
       packagetype: bdist_wheel
+      type: pypi
 buildsystem: simple
 builddir: true
 build-commands:

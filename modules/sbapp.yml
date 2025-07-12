@@ -4,9 +4,9 @@ sources:
     url: https://files.pythonhosted.org/packages/89/92/64a8f7d2333e512a2a5e01beecec2a66752c869e5ace19f41505f1cf0f5e/sbapp-1.6.1-py3-none-any.whl
     sha256: 8f7b3b2c76a200e54c176d7b486165af8a35dd0f5f0ac45564e2788c7ddaba75
     x-checker-data:
-      type: pypi
       name: sbapp
       packagetype: bdist_wheel
+      type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
