@@ -1,6 +1,5 @@
 # flatpak-sideband
 <BR>Flatpak builds of Sideband (https://github.com/markqvist/Sideband)
-<BR>This build connects to the internet to download all Rust dependencies for maturin and cryptography, and opus models, which isn't Flatpak standard.
 <BR>
 <BR>Build:
 <BR>clear && flatpak-builder --jobs=3 --ccache --disable-rofiles-fuse --force-clean build-dir io.unsigned.sideband.yml
