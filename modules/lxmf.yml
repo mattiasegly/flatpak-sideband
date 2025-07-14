@@ -1,8 +1,8 @@
 name: lxmf
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/70/b6/c59c71291e0a273d66cdd0e2e8a0ee6e2fff9d6415088b3d5978cd08e490/lxmf-0.7.1-py3-none-any.whl
-    sha256: e51beb172978068e5f124858170af3844a5671fbd1ff251116a06811eb5f2313
+    url: https://files.pythonhosted.org/packages/46/a7/3d023f3888d3d5868fa1643b4821664962caa98d27c7c6acbd38defd4191/lxmf-0.8.0-py3-none-any.whl
+    sha256: 78357d4a34fe8b96b5d249a424e5de5c5188721a0b151805779a113268db2f81
     x-checker-data:
       name: lxmf
       packagetype: bdist_wheel
