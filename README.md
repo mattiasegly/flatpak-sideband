@@ -6,3 +6,9 @@
 <BR>
 <BR>Install:
 <BR>clear && flatpak-builder --user --install --jobs=3 --ccache --disable-rofiles-fuse --force-clean --delete-build-dirs --disable-download build-dir io.unsigned.sideband.yml
+<BR>
+<BR>
+<BR>Download:
+<BR>Get the occasional artifact from https://github.com/mattiasegly/flatpak-sideband/actions/workflows/flatpak-builder.yml
+<BR>Extract .zip archive and install with:
+<BR>flatpak --user install sideband.flatpak
