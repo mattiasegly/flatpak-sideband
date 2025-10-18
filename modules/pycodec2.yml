@@ -3,11 +3,11 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/51/10/a11a55b009b9420dcf9b37af8b04742533a7661335eca3c6bd741a455b47/pycodec2-3.1.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sha256: 8b346ca8ca2f5e4cdf510da8d325bcae4fecab8a2ca67a0bf0dc5ad8b5bc7dc3
-    x-checker-data:
-      name: pycodec2
-      packagetype: bdist_wheel
-      type: pypi
-      versions: { <: "4" } #numpy dependency
+    #x-checker-data:
+    #  name: pycodec2
+    #  packagetype: bdist_wheel
+    #  type: pypi
+    #  versions: { <: "4" } #numpy dependency
 buildsystem: simple
 builddir: true
 build-commands:

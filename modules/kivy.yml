@@ -3,10 +3,10 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/78/04/b00303f94bd6bc1a2cff274110ea843f9976c9b4f7b2eb7af87ddf49481e/Kivy-2.3.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sha256: 950d17e275f817ca34cc7c9d55f9d229067e2f7fbd0fad985a74c94893f7e739
-    x-checker-data:
-      name: Kivy
-      packagetype: bdist_wheel
-      type: pypi
+    #x-checker-data:
+    #  name: Kivy
+    #  packagetype: bdist_wheel
+    #  type: pypi
 buildsystem: simple
 builddir: true
 build-commands:

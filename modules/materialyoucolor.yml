@@ -3,10 +3,10 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/4d/62/807bea1db749dc45debc2afa51ea4b27f5a219fbe73f6458c2bae2a15427/materialyoucolor-2.0.10-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
     sha256: 978748eca7725d8b569cdecfd9f86a8e34bf946182f79a48b059c98a10f1a0de
-    x-checker-data:
-      name: materialyoucolor
-      packagetype: bdist_wheel
-      type: pypi
+    #x-checker-data:
+    #  name: materialyoucolor
+    #  packagetype: bdist_wheel
+    #  type: pypi
 buildsystem: simple
 builddir: true
 build-commands:

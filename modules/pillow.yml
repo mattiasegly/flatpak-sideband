@@ -3,10 +3,10 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/38/57/755dbd06530a27a5ed74f8cb0a7a44a21722ebf318edbe67ddbd7fb28f88/pillow-12.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
     sha256: f4f1231b7dec408e8670264ce63e9c71409d9583dd21d32c163e25213ee2a344
-    x-checker-data:
-      name: pillow
-      packagetype: bdist_wheel
-      type: pypi
+    #x-checker-data:
+    #  name: pillow
+    #  packagetype: bdist_wheel
+    #  type: pypi
 buildsystem: simple
 builddir: true
 build-commands:

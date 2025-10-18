@@ -3,10 +3,10 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/e2/ab/2fc7817e12e0498a17b3fd86710ff32252df73e32cce8cbb5c4780063875/ffpyplayer-4.5.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sha256: 586b04cd59b1bc3a759d9772de281172480e166778693474249ae1e1254a427f
-    x-checker-data:
-      name: ffpyplayer
-      packagetype: bdist_wheel
-      type: pypi
+    #x-checker-data:
+    #  name: ffpyplayer
+    #  packagetype: bdist_wheel
+    #  type: pypi
 buildsystem: simple
 builddir: true
 build-commands:

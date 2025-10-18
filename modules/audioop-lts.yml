@@ -3,10 +3,10 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/b8/3b/e8964210b5e216e5041593b7d33e97ee65967f17c282e8510d19c666dab4/audioop_lts-0.2.2-cp313-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl
     sha256: 51c916108c56aa6e426ce611946f901badac950ee2ddaf302b7ed35d9958970d
-    x-checker-data:
-      name: audioop-lts
-      packagetype: bdist_wheel
-      type: pypi
+    #x-checker-data:
+    #  name: audioop-lts
+    #  packagetype: bdist_wheel
+    #  type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
