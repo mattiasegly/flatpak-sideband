@@ -6,8 +6,8 @@ sources:
     commit: f4cecb1e26a97f2b5b0405a316e1d05a907baf37
     #tag: v19.7.0
     #commit: 147dd722548358763a8b649b3e4b41dfffbcfbb6
-    x-checker-data:
-      type: git
+    #x-checker-data:
+    #  type: git
 buildsystem: cmake-ninja
 builddir: true
 config-opts:
