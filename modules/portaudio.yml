@@ -3,11 +3,12 @@ sources:
   - type: git
     url: https://github.com/PortAudio/portaudio.git
     branch: master
-    commit: f4cecb1e26a97f2b5b0405a316e1d05a907baf37
+    commit: 147dd722548358763a8b649b3e4b41dfffbcfbb6
     #tag: v19.7.0
     #commit: 147dd722548358763a8b649b3e4b41dfffbcfbb6
     x-checker-data:
       type: git
+    tag: v19.7.0
 buildsystem: cmake-ninja
 builddir: true
 config-opts:
