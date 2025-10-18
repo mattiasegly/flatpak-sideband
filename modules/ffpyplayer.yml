@@ -1,8 +1,8 @@
 name: ffpyplayer
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/46/6e/af8d576777dae551fbf7061fc300a8bbc462d7c36a7c3e01938cd77f0867/ffpyplayer-4.5.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: b92f2b399b25404b688093b605109ef647a7b4314d6bbb24a81c738646e77b87
+    url: https://files.pythonhosted.org/packages/e2/ab/2fc7817e12e0498a17b3fd86710ff32252df73e32cce8cbb5c4780063875/ffpyplayer-4.5.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: 586b04cd59b1bc3a759d9772de281172480e166778693474249ae1e1254a427f
     x-checker-data:
       name: ffpyplayer
       packagetype: bdist_wheel

@@ -1,6 +1,6 @@
 app-id: io.unsigned.sideband
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: sideband
 
@@ -45,12 +45,15 @@ modules:
   - modules/kivy-garden.yml
   - modules/docutils.yml
   - modules/filetype.yml
+  - modules/pygments.yml
   - modules/kivy.yml
   - modules/pillow.yml
   - modules/qrcode.yml
   - modules/materialyoucolor.yml
   - modules/ffpyplayer.yml
   - modules/sh.yml
+  - modules/pyproject-metadata.yml
+  - modules/meson-python.yml
   - modules/numpy.yml
   - modules/mistune.yml
   - modules/typing-extensions.yml
@@ -60,5 +63,6 @@ modules:
   - modules/portaudio.yml
   - modules/pyaudio.yml
   - modules/soundcard.yml
+  - modules/audioop-lts.yml
   - modules/lxst.yml
   - modules/sbapp.yml

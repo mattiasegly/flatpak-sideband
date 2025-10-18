@@ -1,0 +1,13 @@
+name: pyproject-metadata
+sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/7e/b1/8e63033b259e0a4e40dd1ec4a9fee17718016845048b43a36ec67d62e6fe/pyproject_metadata-0.9.1-py3-none-any.whl
+    sha256: ee5efde548c3ed9b75a354fc319d5afd25e9585fa918a34f62f904cc731973ad
+    x-checker-data:
+      name: pyproject-metadata
+      packagetype: bdist_wheel
+      type: pypi
+buildsystem: simple
+builddir: true
+build-commands:
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl
