@@ -1,13 +1,13 @@
 name: numpy
 sources:
-  - type: archive
-    url: https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz
-    sha256: 2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010
-    x-checker-data:
-      name: numpy
-      type: pypi
-      versions: { <: "2" } #sbapp dependency
+  - type: file
+    url: https://files.pythonhosted.org/packages/9e/7e/7d306ff7cb143e6d975cfa7eb98a93e73495c4deabb7d1b5ecf09ea0fd69/numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+    sha256: fc8a63918b04b8571789688b2780ab2b4a33ab44bfe8ccea36d3eba51228c953
+    #x-checker-data:
+    #  name: numpy
+    #  packagetype: bdist_wheel
+    #  type: pypi
 buildsystem: simple
 builddir: true
 build-commands:
-  - pip3 install --verbose --no-index --no-build-isolation --prefix /app .
+  - pip3 install --verbose --no-index --no-build-isolation --prefix /app *.whl
