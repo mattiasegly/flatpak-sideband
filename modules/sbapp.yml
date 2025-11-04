@@ -1,8 +1,8 @@
 name: sbapp
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/75/fe/90731476464ba41e7054ba27bec19a5bd5d1b14ae532704b3d980d1fb96d/sbapp-1.7.0-py3-none-any.whl
-    sha256: 96cfc505ebc66cd12927107aa9f867c70b82526102863032a7ccadcd006f8566
+    url: https://files.pythonhosted.org/packages/da/3a/fc861e1c5d8acf36cccf07453019bdeaaeef31760c04ef2011e7826ec79d/sbapp-1.8.0-py3-none-any.whl
+    sha256: d1a97f48a9db84e4c7b6a67331ea5bccd75ab65a84864b154fbbd4813ddd5657
     x-checker-data:
       name: sbapp
       packagetype: bdist_wheel
