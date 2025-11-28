@@ -27,6 +27,8 @@ cleanup-commands:
   - rm -rf /app/{include,lib/{cmake,mkspecs,pkgconfig}}
 
 modules:
+  - modules/grep.yml
+  - modules/xrandr.yml
   - modules/mtdev.yml
   - modules/libxmu.yml
   - modules/xclip.yml

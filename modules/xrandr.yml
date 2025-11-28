@@ -1,0 +1,15 @@
+name: xrandr
+sources:
+  - type: git
+    url: https://gitlab.freedesktop.org/xorg/app/xrandr.git
+    tag: xrandr-1.5.3
+    commit: 0591ca56f9628d1a1a691160d79d9afb0f225c4d
+    x-checker-data:
+      type: git
+buildsystem: simple
+builddir: true
+build-commands:
+  - ./autogen.sh
+  - ./configure --prefix=/app
+  - make
+  - make install

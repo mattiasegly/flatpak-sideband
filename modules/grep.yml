@@ -1,0 +1,15 @@
+name: grep
+sources:
+  - type: git
+    url: https://git.savannah.gnu.org/git/grep.git
+    tag: v3.12
+    commit: 847dcfb763d3fc305275e0d25ed99e92dd1e4094
+    x-checker-data:
+      type: git
+buildsystem: simple
+builddir: true
+build-commands:
+  - ./bootstrap --skip-po
+  - ./configure --prefix=/app
+  - make
+  - make install
