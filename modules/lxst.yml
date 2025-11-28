@@ -1,8 +1,8 @@
 name: lxst
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/0c/fd/8197f3e8671cc8c56ba9dc8b2a7b7ccbe935b6b21b4e3dd9eba2b09e45a6/lxst-0.4.2-py3-none-any.whl
-    sha256: f9f1a8c0cb7ae6ba7e16b9d54d00ab7dd0dcb2e8b75ddbeb653be094ece6f8b4
+    url: https://files.pythonhosted.org/packages/9e/23/9f8401be21e9c4e9ee12351b65b898b60815295bcaa04e3e927a77ce052d/lxst-0.4.5-py3-none-any.whl
+    sha256: 24b39ce21db538b168b80567ecc8d7dbf002e5a86c328aa8571304126d57c79a
     x-checker-data:
       name: lxst
       packagetype: bdist_wheel
