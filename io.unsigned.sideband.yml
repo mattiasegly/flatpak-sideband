@@ -50,8 +50,6 @@ modules:
   - modules/pillow.yml
   - modules/qrcode.yml
   - modules/materialyoucolor.yml
-  - modules/ffpyplayer.yml
-  - modules/sh.yml
   - modules/pyproject-metadata.yml
   - modules/meson-python.yml
   - modules/numpy.yml
