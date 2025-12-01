@@ -6,6 +6,7 @@ sources:
     commit: 0591ca56f9628d1a1a691160d79d9afb0f225c4d
     x-checker-data:
       type: git
+      tag-pattern: xrandr-([\d.]+)$
 buildsystem: simple
 builddir: true
 build-commands:
