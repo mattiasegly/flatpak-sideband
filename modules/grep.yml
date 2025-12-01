@@ -3,7 +3,7 @@ sources:
   - type: git
     url: https://git.savannah.gnu.org/git/grep.git
     tag: v3.12
-    commit: 847dcfb763d3fc305275e0d25ed99e92dd1e4094
+    commit: 3f8c09ec197a2ced82855f9ecd2cbc83874379ab
     x-checker-data:
       type: git
 buildsystem: simple
