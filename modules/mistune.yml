@@ -1,8 +1,8 @@
 name: mistune
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/7a/f0/8282d9641415e9e33df173516226b404d367a0fc55e1a60424a152913abc/mistune-3.1.4-py3-none-any.whl
-    sha256: 93691da911e5d9d2e23bc54472892aff676df27a75274962ff9edc210364266d
+    url: https://files.pythonhosted.org/packages/9b/f7/4a5e785ec9fbd65146a27b6b70b6cdc161a66f2024e4b04ac06a67f5578b/mistune-3.2.0-py3-none-any.whl
+    sha256: febdc629a3c78616b94393c6580551e0e34cc289987ec6c35ed3f4be42d0eee1
     x-checker-data:
       name: mistune
       packagetype: bdist_wheel
