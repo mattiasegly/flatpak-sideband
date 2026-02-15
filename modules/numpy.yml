@@ -1,8 +1,8 @@
 name: numpy
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/9e/7e/7d306ff7cb143e6d975cfa7eb98a93e73495c4deabb7d1b5ecf09ea0fd69/numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
-    sha256: fc8a63918b04b8571789688b2780ab2b4a33ab44bfe8ccea36d3eba51228c953
+    url: https://files.pythonhosted.org/packages/04/dc/46066ce18d01645541f0186877377b9371b8fa8017fa8262002b4ef22612/numpy-2.4.2-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+    sha256: d0d9b7c93578baafcbc5f0b83eaf17b79d345c6f36917ba0c67f45226911d499
     #x-checker-data:
     #  name: numpy
     #  packagetype: bdist_wheel

@@ -1,8 +1,8 @@
 name: pycodec2
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/aa/d9/d3105984b940c3327ee97846699c3c409fd3a4c03624579da6363735ebd4/pycodec2-4.1.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: 97af116f1d6698eb0e174078fec02d0742a5e7e7756e0f6529560af19e282585
+    url: https://files.pythonhosted.org/packages/d2/2c/e620ab34722c5d1824e761401a80e1ed5e2e28a95347117657b7006b8bb9/pycodec2-4.1.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+    sha256: dcf861ff0de2d6fd52e13e8a60c5ac3de982f8b5192a7d4506a68fbdcfee8ebc
     #x-checker-data:
     #  name: pycodec2
     #  packagetype: bdist_wheel
