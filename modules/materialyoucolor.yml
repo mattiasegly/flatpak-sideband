@@ -1,8 +1,8 @@
 name: materialyoucolor
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/4d/62/807bea1db749dc45debc2afa51ea4b27f5a219fbe73f6458c2bae2a15427/materialyoucolor-2.0.10-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
-    sha256: 978748eca7725d8b569cdecfd9f86a8e34bf946182f79a48b059c98a10f1a0de
+    url: https://files.pythonhosted.org/packages/d8/58/a030f46147f3847c7cd3dcda2bc2c362f7275b771ff61e622c547c29f63a/materialyoucolor-3.0.2-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+    sha256: c4d302e0b309d9b45548074c8a348903733df8bc4101283dc969f0ff157afde5
     #x-checker-data:
     #  name: materialyoucolor
     #  packagetype: bdist_wheel
