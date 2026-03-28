@@ -1,8 +1,8 @@
 name: requests
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl
-    sha256: 2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6
+    url: https://files.pythonhosted.org/packages/56/5d/c814546c2333ceea4ba42262d8c4d55763003e767fa169adc693bd524478/requests-2.33.0-py3-none-any.whl
+    sha256: 3324635456fa185245e24865e810cecec7b4caf933d7eb133dcde67d48cee69b
     x-checker-data:
       name: requests
       packagetype: bdist_wheel
