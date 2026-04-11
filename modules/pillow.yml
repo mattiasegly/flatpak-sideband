@@ -1,8 +1,8 @@
 name: pillow
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/71/24/538bff45bde96535d7d998c6fed1a751c75ac7c53c37c90dc2601b243893/pillow-12.1.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
-    sha256: 47b94983da0c642de92ced1702c5b6c292a84bd3a8e1d1702ff923f183594717
+    url: https://files.pythonhosted.org/packages/67/ee/21d4e8536afd1a328f01b359b4d3997b291ffd35a237c877b331c1c3b71c/pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+    sha256: eedf4b74eda2b5a4b2b2fb4c006d6295df3bf29e459e198c90ea48e130dc75c3
     #x-checker-data:
     #  name: pillow
     #  packagetype: bdist_wheel
