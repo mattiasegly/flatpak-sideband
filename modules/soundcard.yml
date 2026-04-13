@@ -1,8 +1,8 @@
 name: soundcard
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/fa/d5/700e3018056716c627d8ea783594fc939f74c5878a671c0673281d9e069d/soundcard-0.4.5-py3-none-any.whl
-    sha256: 8a19c3d5486250bb2990dbd91a75ddf9f15cab39f24ff607e5bce812f43b4917
+    url: https://files.pythonhosted.org/packages/4c/be/eb381e700a61b4ce899e14850d7ae78f9600fd2f8b58b4c52b8714e81917/soundcard-0.4.6-py3-none-any.whl
+    sha256: ab44b8c1033ac6ec49c5d618ce096dab9b60c7d7a427c92bef15856e5ebb3e09
     x-checker-data:
       name: SoundCard
       packagetype: bdist_wheel
