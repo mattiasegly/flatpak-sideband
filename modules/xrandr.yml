@@ -2,8 +2,8 @@ name: xrandr
 sources:
   - type: git
     url: https://gitlab.freedesktop.org/xorg/app/xrandr.git
-    tag: xrandr-1.5.3
-    commit: 0591ca56f9628d1a1a691160d79d9afb0f225c4d
+    tag: xrandr-1.5.4
+    commit: 0a9c71cc8a44798ad2ce9a4d27aa33470bff5da3
     x-checker-data:
       type: git
       tag-pattern: xrandr-([\d.]+)$
