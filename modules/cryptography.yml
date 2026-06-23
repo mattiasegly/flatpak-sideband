@@ -1,8 +1,8 @@
 name: cryptography
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/c7/0b/333ddab4270c4f5b972f980adef4faa66951a4aaf646ca067af597f15563/cryptography-46.0.7-cp311-abi3-manylinux_2_34_x86_64.whl
-    sha256: 42a1e5f98abb6391717978baf9f90dc28a743b7d9be7f0751a6f56a75d14065b
+    url: https://files.pythonhosted.org/packages/a9/3c/f3ad17eecc1a57b0ba236dc01f90e783c51f4a2f35f64777cc4f47a184b2/cryptography-49.0.0-cp311-abi3-manylinux_2_34_x86_64.whl
+    sha256: cbc77da8c523d5abd028635ba850a6966fcee2c82e2bf65a41d1d8afe0f98be9
     #x-checker-data:
     #  name: cryptography
     #  packagetype: bdist_wheel
