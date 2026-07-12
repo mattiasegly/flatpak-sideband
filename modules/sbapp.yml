@@ -1,12 +1,14 @@
 name: sbapp
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/02/4e/4f34ccafb6099f8dfb504c681e1d49cc8335dfd35877e9637a1c8884c038/sbapp-1.9.7-py3-none-any.whl
+    url: https://github.com/markqvist/Sideband/releases/download/1.9.7/sbapp-1.9.7-py3-none-any.whl
     sha256: 03adb115022279a6c18b4102223dfb1b9f05326b3cf6812dbefc3d962488bc3e
     x-checker-data:
-      name: sbapp
-      packagetype: bdist_wheel
-      type: pypi
+      type: json
+      url: https://api.github.com/repos/markqvist/Sideband/releases/latest
+      version-query: .tag_name
+      url-query: .assets[] | select(.name == ("sbapp-" + $version + "-py3-none-any.whl")) | .browser_download_url
+
 buildsystem: simple
 builddir: true
 build-commands:
