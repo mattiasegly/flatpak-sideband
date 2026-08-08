@@ -3,7 +3,7 @@ sources:
   - type: git
     url: https://github.com/PortAudio/portaudio.git
     branch: master
-    commit: d1852d5995a6e9c53aeb4ee6932091234414df0c
+    commit: a880212eea40537d4c7906d70dc6adb17c8949e9
     #tag: v19.7.0
     #commit: 147dd722548358763a8b649b3e4b41dfffbcfbb6
     #x-checker-data:
