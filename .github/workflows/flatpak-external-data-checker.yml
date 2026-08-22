@@ -1,6 +1,6 @@
 on:
-#  schedule: # for scheduling to work this file must be in the default branch
-#    - cron: "0 9 * * *" # run every day
+  schedule: # for scheduling to work this file must be in the default branch
+    - cron: "0 4 * * 4" # run every day
   workflow_dispatch: # can be manually dispatched under GitHub's "Actions" tab
 name: Check Updates
 jobs:
