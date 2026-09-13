@@ -1,8 +1,8 @@
 name: meson-python
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/bc/64/28280d983512b8d13efac5cc841e1ed05dd6e0bbc71e0daf8c9c0c028609/meson_python-0.21.0-py3-none-any.whl
-    sha256: b5d93fc66c80874c28916f6cb55a912fcd92a699563a4047158c50216867ad94
+    url: https://files.pythonhosted.org/packages/9e/4f/03aeed5a32e7e8158d8c617fe65b622410db974fe02e3bd78da9689a44fd/meson_python-0.21.1-py3-none-any.whl
+    sha256: 270bc9b78957c47e0aa1758ad616dba3f943d8f9cbdb944d318c3c1c7a49e4bd
     x-checker-data:
       name: meson-python
       packagetype: bdist_wheel
