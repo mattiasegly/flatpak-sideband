@@ -1,8 +1,8 @@
 name: sbapp
 sources:
   - type: file
-    url: https://github.com/markqvist/Sideband/releases/download/2.1.0/sbapp-2.1.0-py3-none-any.whl
-    sha256: 5985e233651368360a1ae3c727e41bac9b66abf6abfe3aa43f6db41972a82df4
+    url: https://github.com/markqvist/Sideband/releases/download/2.2.0/sbapp-2.2.0-py3-none-any.whl
+    sha256: 90e9fb0b6c702799fe1d84d8dbbb15e66038b3ab670f2406be09ea20297e1181
     x-checker-data:
       type: json
       url: https://api.github.com/repos/markqvist/Sideband/releases/latest
