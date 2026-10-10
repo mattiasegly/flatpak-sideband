@@ -1,8 +1,8 @@
 name: pycparser
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
-    sha256: b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992
+    url: https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl
+    sha256: 51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80
     x-checker-data:
       name: pycparser
       packagetype: bdist_wheel
