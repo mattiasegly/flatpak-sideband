@@ -1,8 +1,8 @@
 name: soupsieve
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/07/66/473f7ca0be0b06e38ee8c85ee2db184e3981bd769fac2e7c19c8a8865211/soupsieve-3.0.4-py3-none-any.whl
-    sha256: 8412826614f9c632227067d0985aeb9f584bd15efc852955430e097a9fe7afbf
+    url: https://files.pythonhosted.org/packages/2c/5c/4f68370847b561a389dd9a2d7eb3d19fd8cbb8acbae543a0c6b8d0d9700b/soupsieve-4.0.1-py3-none-any.whl
+    sha256: 2e68cf7dd5a0f29d81f9d485275ccf294e6475f615e211895d91cb81f8614f04
     x-checker-data:
       name: soupsieve
       packagetype: bdist_wheel
