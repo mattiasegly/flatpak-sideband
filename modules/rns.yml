@@ -1,8 +1,8 @@
 name: rns
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/a1/8e/f86238eb7c6b995b5ca6b19105c985c581f494f4a806ad74eb5a2b294d44/rns-1.6.0-py3-none-any.whl
-    sha256: fcf2d07eebafea7e56a94542bd74646e451b0f33bb3efb5f914bbbba38b39f36
+    url: https://files.pythonhosted.org/packages/09/15/6bb44deb69ae21b4a7dd060c47319acf70eac755f39169b15711a796c6b0/rns-1.6.1-py3-none-any.whl
+    sha256: ea6a77a5fb906291cb1882102714419562ec3e7de7d0302db11bd08c79930e9e
     x-checker-data:
       name: rns
       packagetype: bdist_wheel
