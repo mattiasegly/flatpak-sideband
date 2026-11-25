@@ -1,8 +1,8 @@
 name: charset-normalizer
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/fc/ad/d07d7862a62ffa6d79d68074d14823243dd235a77c45262acbf6adeb28bf/charset_normalizer-3.5.2-py3-none-any.whl
-    sha256: b6b751274acb69d77b3323d6b7dbaa3c7fdfc1eb829b7eb61d262f32e1af9685
+    url: https://files.pythonhosted.org/packages/d2/0d/07ab8eb9b7015274353eac2add4067bde1ab1b51912bbae505392905eedd/charset_normalizer-3.5.3-py3-none-any.whl
+    sha256: 96e268b0cbda016ac519513294fcd17032264085b600abaac58b93049477e132
     x-checker-data:
       name: charset-normalizer
       packagetype: bdist_wheel
