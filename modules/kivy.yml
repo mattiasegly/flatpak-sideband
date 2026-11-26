@@ -1,8 +1,8 @@
 name: kivy
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/78/04/b00303f94bd6bc1a2cff274110ea843f9976c9b4f7b2eb7af87ddf49481e/Kivy-2.3.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-    sha256: 950d17e275f817ca34cc7c9d55f9d229067e2f7fbd0fad985a74c94893f7e739
+    url: https://files.pythonhosted.org/packages/c6/ad/e431d904ba9e2534f013937c1db48a84b779ccde90293f2b4a8791f10b11/kivy-2.3.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+    sha256: b59fb6dc91b3967b2997fce421ddc7d2cccb669a8829979d511dc68a7fc4328e
     #x-checker-data:
     #  name: Kivy
     #  packagetype: bdist_wheel
